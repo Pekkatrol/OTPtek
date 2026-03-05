@@ -6,6 +6,8 @@
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
+    "android:emu": "bash ./scripts/android-emulator-stable.sh OTPtek",
+    "android:stable": "bash ./scripts/android-emulator-stable.sh OTPtek && expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint"
